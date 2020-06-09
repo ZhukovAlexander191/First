@@ -2767,7 +2767,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586169536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.46, y: -3.05, z: 0}
+  m_LocalPosition: {x: 9.79, y: -0.85, z: 0}
   m_LocalScale: {x: 7.9394555, y: 7.9394555, z: 7.9394555}
   m_Children:
   - {fileID: 964793905}
@@ -4899,7 +4899,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: YOU'VE BEEN EXPELLED((((
+  m_Text: KURVAAAA
 --- !u!222 &1150420068
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8497,7 +8497,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '"E" - restart '
+  m_Text: '"E" - restart this shit'
 --- !u!222 &1926783990
 CanvasRenderer:
   m_ObjectHideFlags: 0
