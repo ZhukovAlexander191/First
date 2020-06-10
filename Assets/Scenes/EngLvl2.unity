@@ -504,11 +504,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98265892}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.31236443, y: 0.3211807, z: -0.4606655}
-  m_LocalScale: {x: 0.040305033, y: 1.1940365, z: -0.11209838}
+  m_LocalPosition: {x: -5.330002, y: -0.6600001, z: -3.6574328}
+  m_LocalScale: {x: 0.32, y: 9.48, z: -0.89}
   m_Children: []
-  m_Father: {fileID: 2067232906}
-  m_RootOrder: 4
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &110148462
 GameObject:
@@ -5805,8 +5805,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998291757}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.42533094, y: 0.07490881, z: -0.16388908}
-  m_LocalScale: {x: 0.12595323, y: 0.12595323, z: 0.12595323}
+  m_LocalPosition: {x: 0.52689743, y: -2.615265, z: -1.3011899}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1674443135}
   - {fileID: 971492475}
@@ -5876,8 +5876,8 @@ Transform:
   - {fileID: 1432929391}
   - {fileID: 512706172}
   - {fileID: 265746777}
-  m_Father: {fileID: 2067232906}
-  m_RootOrder: 5
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1005721865
 GameObject:
@@ -8585,8 +8585,8 @@ RectTransform:
   - {fileID: 1541038297}
   - {fileID: 1045970787}
   - {fileID: 493301517}
-  m_Father: {fileID: 2067232906}
-  m_RootOrder: 2
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8793,11 +8793,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586066461}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0062980456, y: 0.07683148, z: -1.2595323}
-  m_LocalScale: {x: 0.16523804, y: 0.20448208, z: 0.16523805}
+  m_LocalPosition: {x: -2.9000015, y: -2.6, z: -10}
+  m_LocalScale: {x: 1.3119, y: 1.6234764, z: 1.3119}
   m_Children: []
-  m_Father: {fileID: 2067232906}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1586066466
 AudioSource:
@@ -10741,10 +10741,6 @@ Transform:
   m_Children:
   - {fileID: 969845830}
   - {fileID: 1612357370}
-  - {fileID: 1554729038}
-  - {fileID: 1586066465}
-  - {fileID: 98265894}
-  - {fileID: 998291760}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

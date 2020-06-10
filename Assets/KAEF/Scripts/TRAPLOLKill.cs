@@ -10,12 +10,12 @@ public class TRAPLOLKill : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        player = GameObject.Find("Hero").GetComponent<PlayerControl>();
+        player = GameObject.Find("Player").GetComponent<PlayerControl>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name.Equals("Hero"))
+        if (collision.gameObject.name.Equals("Player"))
         {
             rb.isKinematic = false;
         }
@@ -23,7 +23,7 @@ public class TRAPLOLKill : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name.Equals("Hero"))
+        if (collision.gameObject.name.Equals("Player"))
         {
             player.TakeDamage(10);
         }

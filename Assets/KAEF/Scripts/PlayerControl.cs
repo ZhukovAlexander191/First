@@ -41,7 +41,7 @@ public class PlayerControl : MonoBehaviour
     void FixedUpdate()
     {
         rb.velocity = new Vector2(move * speed, rb.velocity.y);
-        if (FaceR && move < 0)
+        /*if (FaceR && move < 0)
         {
             FaceR = !FaceR;
             transform.Rotate(0f, 180f, 0f);
@@ -50,37 +50,47 @@ public class PlayerControl : MonoBehaviour
         {
             FaceR = !FaceR;
             transform.Rotate(0f, 180f, 0f);
-        }
-        if (!Input.GetKeyDown(KeyCode.Space))
+        } */
+        
+    }
+    /*if (!Input.GetKeyDown(KeyCode.Space))
         {
             animation.SetInteger("Speed", Convert.ToInt32(move));
         }
-    }
-
+    */
 
     private void Update()
     {
         move = Input.GetAxisRaw("Horizontal");
         isGrounded = Physics2D.OverlapCircle(fetPos.position, checkRadius, whatIsGround);
         
-        if (isGrounded == true && !Input.GetKeyDown(KeyCode.Space))
+        /*if (isGrounded == true && !Input.GetKeyDown(KeyCode.Space))
         {
             animation.SetBool("jump", false);
         }
+        */
         if (isGrounded == true && Input.GetKeyDown(KeyCode.Space))
         {
             rb.velocity = Vector2.up * JumpForce;
-            animation.SetBool("jump", true);
+            //animation.SetBool("jump", true);
         }
         if (health <= 0)
         {
-            lives[0].sprite = ZeroL;
             Destroy(gameObject);
             panel.SetActive(true);
         }
-        for (int i = 0; i < health; i++)
+        
+    }
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+    }
+
+}
+/* for (int i = 0; i < health; i++)
         {
-            if (i < 2)
+            if (i< 2)
             {
                 p = 0;
                 pp = 1;
@@ -94,7 +104,7 @@ public class PlayerControl : MonoBehaviour
             if (i % 2 == 1)
             {
                 lives[p].sprite = FullL;
-                if ((pp < 5 && pp > 1) | health == 2) 
+                if ((pp< 5 && pp> 1) | health == 2) 
                 {
                     lives[pp].sprite = ZeroL;
                 }
@@ -107,11 +117,4 @@ public class PlayerControl : MonoBehaviour
             lives[p].enabled = true;
 
         }
-    }
-
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-    }
-
-}
+    */
